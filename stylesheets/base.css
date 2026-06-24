@@ -1,0 +1,107 @@
+@font-face {
+    font-family: 'TT Ramillas Edu';
+    src: url('../fonts/TTRamillasEdu-Bold.eot');
+    src: url('../fonts/TTRamillasEdu-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTRamillasEdu-Bold.woff2') format('woff2'),
+        url('../fonts/TTRamillasEdu-Bold.woff') format('woff'),
+        url('../fonts/TTRamillasEdu-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Ramillas Edu';
+    src: url('../fonts/TTRamillasEdu-Regular.eot');
+    src: url('../fonts/TTRamillasEdu-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTRamillasEdu-Regular.woff2') format('woff2'),
+        url('../fonts/TTRamillasEdu-Regular.woff') format('woff'),
+        url('../fonts/TTRamillasEdu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Fors Educational';
+    src: url('../fonts/TTForsEducational-Rg.eot');
+    src: url('../fonts/TTForsEducational-Rg.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTForsEducational-Rg.woff2') format('woff2'),
+        url('../fonts/TTForsEducational-Rg.woff') format('woff'),
+        url('../fonts/TTForsEducational-Rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Zhivoton';
+    src: url('../fonts/Zhivoton.eot');
+    src: url('../fonts/Zhivoton.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Zhivoton.woff2') format('woff2'),
+        url('../fonts/Zhivoton.woff') format('woff'),
+        url('../fonts/Zhivoton.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TT Fors Educational';
+    src: url('../fonts/TTForsEducational-Md.eot');
+    src: url('../fonts/TTForsEducational-Md.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TTForsEducational-Md.woff2') format('woff2'),
+        url('../fonts/TTForsEducational-Md.woff') format('woff'),
+        url('../fonts/TTForsEducational-Md.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'TT Fors Educational';;
+    color: #040037;
+    background-color: #FFEDCA;
+}
+
+a{
+    text-decoration: none;
+    color: #040037;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1{
+   font-family: 'Zhivoton';
+   font-size: 140px; 
+   line-height: 120%;
+}
+
+h2{
+    font-family: 'TT Ramillas Edu';
+    font-weight: normal;
+    font-size: 64px;
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: 'TT Ramillas Edu';
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p{
+    font-family: 'TT Fors Educational';
+    font-weight: normal;
+    font-size: 32px;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 0;
+}
