@@ -179,8 +179,8 @@ let max_index = slides.length - 1;
 let current_index = 0;
 const bullets = document.querySelectorAll('.slider-bullet')
 
-document.querySelector('.btn-prev').addEventListener('click', prev)
-document.querySelector('.btn-next').addEventListener('click', next)
+document.querySelector('.btn-prev') && document.querySelector('.btn-prev').addEventListener('click', prev)
+document.querySelector('.btn-next') && document.querySelector('.btn-next').addEventListener('click', next)
 
 function prev_af() {
     let new_index_af = current_index_af - 1;
@@ -228,7 +228,7 @@ function next_af() {
 
 function bullet_af(){
     bullets_af.forEach((bullet, i) => {
-        if(current_index == i){
+        if(current_index_af == i){
             bullet.classList.add('active')
         } else{
             bullet.classList.remove('active')
@@ -243,8 +243,8 @@ let max_index_af = slides_af.length - 1;
 let current_index_af = 0;
 const bullets_af = document.querySelectorAll('.slider-bullet-af')
 
-document.querySelector('.btn-prev-af').addEventListener('click', prev_af)
-document.querySelector('.btn-next-af').addEventListener('click', next_af)
+document.querySelector('.btn-prev-af') && document.querySelector('.btn-prev-af').addEventListener('click', prev_af)
+document.querySelector('.btn-next-af') && document.querySelector('.btn-next-af').addEventListener('click', next_af)
 
 
 
